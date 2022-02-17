@@ -9,6 +9,7 @@ repo for text based diagrams
   flowchart TD;
       A[\raw bucket/]--->B(splitter/formatter function);
       B--->C[\split files bucket/];
+      B--->H{{Cloud Firestore Metics}};
       C--->B;
       B--->D[\formatted files bucket/];
       D--->E(task creator function);

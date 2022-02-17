@@ -10,5 +10,6 @@ repo for text based diagrams
       A[\raw bucket/]--->B(splitter/formatter function);
       B--->C[\split files bucket/];
       C--->B;
+      B--->D[\formatted files bucket/];
 
 ```

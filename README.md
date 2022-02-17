@@ -6,7 +6,7 @@ repo for text based diagrams
 
 
 ```mermaid
-  flowchart TD;
+  flowchart LR;
       A[\raw bucket/]--->B(splitter/formatter function);
       B--->C[\split files bucket/];
       C--->B;

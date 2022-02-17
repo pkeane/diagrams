@@ -22,5 +22,7 @@ repo for text based diagrams
       K--->M[\successed request bucket/];
       L--->N[\errored request bucket/];
       O[cloud scheduler hourly]--->P[trait aggregator pubsub topic];
+      P--->Q(trait aggregator function);
+      H--->Q;
 
 ```

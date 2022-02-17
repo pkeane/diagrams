@@ -19,5 +19,9 @@ repo for text based diagrams
       G--->J[errored pubsub topic];
       I--->K(success mover function);
       J--->L(errored mover function);
+      K--->M[\successed request bucket/];
+      L--->N[\errored request bucket/];
+      D--->M;
+      D--->N;
 
 ```

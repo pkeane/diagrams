@@ -8,7 +8,7 @@ repo for text based diagrams
 ```mermaid
   flowchart TD;
       A[\raw bucket/]--->B(splitter/formatter function);
-      B--->H{{Cloud Firestore Metics}};
+      B--->H{{Cloud Firestore Metrics}};
       B--->C[\split files bucket/];
       C--->B;
       B--->D[\formatted files bucket/];

@@ -14,6 +14,6 @@ repo for text based diagrams
 
 ```mermaid
   flowchart TD;
-      A[\raw bucket/]-- triggers --B[formatter function];
+      A[\raw bucket/]-- triggers --B{{formatter function}};
 
 ```

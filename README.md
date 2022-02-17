@@ -24,5 +24,8 @@ repo for text based diagrams
       O[cloud scheduler hourly]--->P[trait aggregator pubsub topic];
       P--->Q(trait aggregator function);
       H--->Q;
+      Q--->R[\aggregated traits bucket/];
+      R--->S(bigquery writer function);
+      S--->T{{BigQuery}};
 
 ```

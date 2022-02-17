@@ -21,7 +21,5 @@ repo for text based diagrams
       J--->L(errored mover function);
       K--->M[\successed request bucket/];
       L--->N[\errored request bucket/];
-      D--->M;
-      D--->N;
 
 ```

@@ -7,6 +7,6 @@ repo for text based diagrams
 
 ```mermaid
   flowchart TD;
-      A[\raw bucket/]--->B{{formatter function}};
+      A[\raw bucket/]--->B{{splitter/formatter function}};
 
 ```

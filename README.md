@@ -21,5 +21,6 @@ repo for text based diagrams
       J--->L(errored mover function);
       K--->M[\successed request bucket/];
       L--->N[\errored request bucket/];
+      O[cloud scheduler hourly]--->P[trait aggregator pubsub topic];
 
 ```

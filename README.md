@@ -11,3 +11,11 @@ repo for text based diagrams
       B-->D;
       C-->D;
 ```
+
+```mermaid
+  flowchart TD;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
+```
